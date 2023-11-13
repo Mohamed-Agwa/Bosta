@@ -146,6 +146,8 @@ code {
 .pap {
   margin-top: 15px !important;
   padding-bottom: 35px !important;
+  box-shadow: none !important;
+
 }
 
 .progg {
