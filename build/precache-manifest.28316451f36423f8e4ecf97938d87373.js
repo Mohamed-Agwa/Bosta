@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "02351f9c974322b5f74aa0f50880c6e0",
+    "revision": "4a7faf39040e40fe227fbd8f56ec23b9",
     "url": "/Bosta/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Bosta/static/css/2.52f2db83.chunk.css"
   },
   {
-    "revision": "52fee876f4b057dbcb45",
-    "url": "/Bosta/static/css/main.8350b68b.chunk.css"
+    "revision": "3ecabd23a91e7e24be15",
+    "url": "/Bosta/static/css/main.3295da72.chunk.css"
   },
   {
     "revision": "f2b4d5252e18afa79aa8",
@@ -24,8 +24,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Bosta/static/js/3.dbf8dec7.chunk.js"
   },
   {
-    "revision": "52fee876f4b057dbcb45",
-    "url": "/Bosta/static/js/main.5f1ba3e3.chunk.js"
+    "revision": "3ecabd23a91e7e24be15",
+    "url": "/Bosta/static/js/main.69c9e9b8.chunk.js"
   },
   {
     "revision": "e69f44521bea7a550656",

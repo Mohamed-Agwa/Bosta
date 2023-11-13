@@ -50,7 +50,7 @@ const Shipment = () => {
                 <Row className="rowspacing">
                     <Col className='col-6 col-md-3 '>
                         <p className='easy'>{t("shipment1")} {numb}</p>
-                        <p  className='hard'  medium style = {{ color: progcol }}>{msg} </p>
+                        <p  className='hard' style = {{ color: progcol }}>{msg} </p>
                     </Col>
                     <Col className='col-6 col-md-3 '>
                         <p className='easy'>{t("shipment2")}</p>
@@ -78,7 +78,7 @@ const Shipment = () => {
                         <Progress  />
                     </Col>
                     <Col className='col-3 col-md-3 ship1'>
-                        <p className="medium" >{t("shipment5")}</p>
+                        <p className="medium shippad" >{t("shipment5")}</p>
                     </Col>
                     <Col className='col-3 col-md-3 ship2'>
                         <p className=" medium shippad2">{t("shipment6")}</p>

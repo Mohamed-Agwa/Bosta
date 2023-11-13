@@ -223,12 +223,14 @@ const Shipmentdetails = (props) => {
                                     
 
                                 </Col>
-                                <Col className='col-12 col-md-8 '>
+                                <Col className='mobceno col-12 col-md-8 mobcen'>
+                                <div className='mobcen'>
                                 <p className='addspac'>
                                 {t("shipment23")}
                         </p>
                                     
                                     <Button className='addspac'> {t("shipment24")}</Button>
+                                    </div>
                                 </Col>
                             </Row>
 

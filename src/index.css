@@ -16,6 +16,63 @@ code {
   list-style-type: none;
 
 }
+@media only screen and (max-width: 600px) {
+  .foot-list li {
+    font-size: 14px;
+  
+  }
+  .foo-list a{
+    font-size: 14px;
+    padding-left: 2rem;  
+  }
+  .mobcen {
+    text-align: center;
+  }
+  [dir="rtl"] .mobceno {
+    text-align: center !important;
+  }
+  [dir="rtl"] .shippad2 {
+    margin-right: 0px !important;
+  
+  }
+  [dir="rtl"] .shippad3 {
+    padding-left: 0px !important;
+  
+  }
+  [dir="rtl"] .ship3 {
+    margin-right: 0px !important;
+}
+[dir="rtl"] .shippad4 {
+  padding-right: 48px !important;
+  padding-left: 0px !important;
+}
+[dir="rtl"] .foo-list a {
+  font-size: 14px;
+  padding-right: 2.5rem !important;
+}
+  
+  .shippad2{
+    padding-left: 0px !important;
+    text-align: center;
+
+  }
+  .shippad3{
+    padding-left: 8px !important;
+    text-align: center;
+
+  }
+  .shippad4{
+    padding-left: 35px !important;
+    text-align: end;
+
+  }
+  .medium{
+    font-size: 8px !important;
+
+  }
+}
+
+
 
 .sign-up-b a {
   color: #e30613;
@@ -118,6 +175,7 @@ code {
 
 .shippad3 {
   padding-left: 70px;
+  text-align: center;
 }
 
 .ship4 {
@@ -146,6 +204,7 @@ code {
 
 .titlee {
   color: #455a64;
+  margin-top: 15px !important;
 }
 
 .easy {
@@ -155,7 +214,7 @@ code {
 .medium {
   color: #455a64;
   font-weight: 600;
-  font-size: 12px !important;
+  font-size: 12px ;
 }
 
 .hard {

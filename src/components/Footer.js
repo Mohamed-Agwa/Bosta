@@ -58,7 +58,7 @@ const Footer = () => {
           <Col className='col-6 col-md-2 foot-list'>
           <ul><li> {t("header20")} </li><li>{t("header21")}</li><li>{t("header22")}</li><li>{t("header4")}</li><li>{t("header23")}</li></ul>
           </Col>
-          <Col className='col-12 col-md-2' >
+          <Col className='col-12 col-md-2 foo-list' >
           <Nav.Link onClick={onPressed} href="#">{t("header15")}</Nav.Link>
           </Col>
           
