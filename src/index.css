@@ -28,6 +28,12 @@ code {
   .mobcen {
     text-align: center;
   }
+  .navo {
+    align-items: center !important;
+  }
+  /* [dir="rtl"] .navo{
+    align-items: center !important;
+  } */
   [dir="rtl"] .mobceno {
     text-align: center !important;
   }

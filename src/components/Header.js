@@ -102,7 +102,7 @@ const Header = (props) => {
 
           </Nav>
           
-          <Nav className="sign-in-b">
+          <Nav className="sign-in-b navo">
           {
               i18n.language == 'en' && <Button onClick={() => {
                 i18n.changeLanguage('ar');
@@ -115,7 +115,7 @@ const Header = (props) => {
             }
             <Nav.Link href="#">{t("header17")}</Nav.Link>
           </Nav>
-          <Nav className="sign-up-b">
+          <Nav className="sign-up-b navo">
             <Nav.Link href="#">{t("header18")}</Nav.Link>
           </Nav>
         </Navbar.Collapse>
