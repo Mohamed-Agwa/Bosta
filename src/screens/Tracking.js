@@ -22,7 +22,7 @@ const Tracking = (props) => {
       }}>
             <Container ><Shipment />
             <Shipmentdetails /></Container></main>}
-            <Footer /></>
+            <Footer  /></>
     )
 }
 

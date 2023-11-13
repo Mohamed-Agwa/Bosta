@@ -2,15 +2,26 @@ import React from 'react';
 import '../index.css';
 import { Container, Row, Col } from 'react-bootstrap';
 import {useTranslation} from 'react-i18next';
+import { useNavigate } from 'react-router-dom';
+import { Navbar, Nav,  NavDropdown, Button, NavItem, NavLink } from 'react-bootstrap';
+
 
 
 
 const Footer = () => {
+  const navigate = useNavigate();
   const [t, i18n] = useTranslation('');
+  const onPressed = evt => {
+    evt.preventDefault();
+    navigate('/tracking')  
+    
+  };
 
   return (
     <footer>
-      <Container>
+      <Container style={{
+        marginTop: '40px'
+      }}>
         <Row>
         <Col className='col-12 col-md-2'>
         {i18n.language == 'ar'?
@@ -48,7 +59,7 @@ const Footer = () => {
           <ul><li> {t("header20")} </li><li>{t("header21")}</li><li>{t("header22")}</li><li>{t("header4")}</li><li>{t("header23")}</li></ul>
           </Col>
           <Col className='col-12 col-md-2' >
-          {t("header15")}
+          <Nav.Link onClick={onPressed} href="#">{t("header15")}</Nav.Link>
           </Col>
           
         </Row>
