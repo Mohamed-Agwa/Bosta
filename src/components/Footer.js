@@ -59,7 +59,7 @@ const Footer = () => {
           <ul><li> {t("header20")} </li><li>{t("header21")}</li><li>{t("header22")}</li><li>{t("header4")}</li><li>{t("header23")}</li></ul>
           </Col>
           <Col className='col-12 col-md-2 foo-list' >
-          <Nav.Link onClick={onPressed} href="#">{t("header15")}</Nav.Link>
+          <Nav.Link onClick={onPressed}>{t("header15")}</Nav.Link>
           </Col>
           
         </Row>
