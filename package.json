@@ -1,6 +1,6 @@
 {
-  "homepage": "http://Mohamed-Agwa.github.io/Bosta",
-  "proxy": "https://tracking.bosta.co/",
+  "homepage": "http://Mohamed-Agwa.github.io/Bosta/",
+  "proxy": "http://localhost:5000",
   "name": "frontend",
   "version": "0.1.0",
   "private": true,

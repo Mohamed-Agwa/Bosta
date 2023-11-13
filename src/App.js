@@ -8,10 +8,10 @@ import { Provider } from 'react-redux';
 import Footer from './components/Footer';
 import Header from './components/Header';
 import Shipment from './components/Shipment';
-import {BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import Landingpage from './screens/Landingpage';
 import Tracking from './screens/Tracking';
-import {useTranslation} from 'react-i18next';
+import { useTranslation } from 'react-i18next';
 
 function App() {
   const [t, i18n] = useTranslation('');
@@ -20,9 +20,10 @@ function App() {
   return (
     <>
       <Provider store={store}>
-        <Router>
+        <Router >
           <Routes>
             <Route path='/' element={<Landingpage />} />
+            <Route path='/Bosta' element={<Landingpage />} />
             <Route path='/tracking' element={<Tracking />} />
           </Routes>
         </Router>
